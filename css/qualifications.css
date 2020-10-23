@@ -1,0 +1,22 @@
+#Banner { box-shadow: 0 0 2px 5px #aaaaaa; }
+
+h1 { font-size: 4em; }
+
+#imgWrapper {
+    height: 100%;
+    width: auto;
+}
+
+img {
+    height: 25%;
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    img {
+        height: auto;
+        width: 100%;
+    }
+
+    h1 { text-align: center; }
+}
