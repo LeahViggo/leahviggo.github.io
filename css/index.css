@@ -1,13 +1,12 @@
 body {
     background-color: #ffffff;
-    background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
+    background-image: url("../Images/BackgroundImage.png");
 }
 
 #Card-Left {
     margin: 0%;
     padding: 0%;
     height: auto;
-    top: 0;
 }
 
 #Img-Mum {
@@ -26,7 +25,7 @@ body {
 
 h1 { font-family: 'Marck Script', cursive; }
 
-#email { white-space: nowrap; }
+#email { font-size: 0.9em; }
 
 button:hover { background-color: #C1666B; }
 
@@ -37,6 +36,13 @@ a:hover {
     text-decoration: none;
 }
 
+.text-blueDark {
+    color: rgb(87, 106, 155);
+}
+
+.text-blueLight {
+    color: rgb(126, 137, 163);
+}
 
 @media only screen and (max-width: 768px) {
     

@@ -2,6 +2,20 @@
 
 h1 { font-size: 4em; }
 
+li {
+    list-style: none;
+    font-size: 1.5em;
+    transition: all 1s;
+}
+
+li:hover {
+    color: #C1666B;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.active { color: #C1666B; }
+
 #imgWrapper {
     height: 100%;
     width: auto;
