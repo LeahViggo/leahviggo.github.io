@@ -9,13 +9,13 @@ body {
     height: auto;
 }
 
-#Img-Mum {
+/* #Img-Mum {
     background-image: url('../Images/Img-PlaceHolderPerson.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 30%;
     border-radius: 3px;
-}
+} */
 
 #Card-Left {
     margin: 0%;
